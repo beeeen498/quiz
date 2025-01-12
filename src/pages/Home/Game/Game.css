@@ -1,0 +1,114 @@
+.gameDiv{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+/* game is running */
+
+/* question tracker */
+.questionTrackerDiv{
+    position: absolute;
+    z-index: 200;
+    top: 0;
+    right: 0;
+    margin: 25px;
+    font-size: 25px;
+}
+
+.questionDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.question{
+    margin: 0;
+    font-size: 30px;
+    max-width: 70%;
+    text-align: center;
+}
+
+.openEndedQuestionsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sendButton{
+    width: 100px;
+    all: unset;
+    border: 1px solid black;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sendButton:hover{
+    cursor: pointer;
+}
+
+.answers{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+}
+
+
+.stylizedButton{
+    all: unset;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.stylizedButton:hover{
+    cursor: pointer;
+}
+
+.openQuestionInput{
+    all: unset;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* quit game */
+.quitGameButton{
+    width: auto;
+}
+
+
+/* game over */
+.gameOver{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    gap: 30px;
+}
+
+.gameOver h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.scoreDisplay{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.restartGameDiv{
+    display: flex;
+    justify-content: center;
+}
