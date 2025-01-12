@@ -4,13 +4,13 @@ import HomePage from "./pages/Home/HomePage";
 import "./styles/main.css";
 
 const App = () => {
-    return (
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<HomePage />} />
-        </Routes>
-      </Router>
-    );
+  return (
+    <Router basename="/repository-name">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
+  );
 };
 
 export default App;
